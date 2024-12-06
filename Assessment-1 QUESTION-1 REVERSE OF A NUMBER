@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int n,i,sum=0,r;
+    cout<<"enter a number: ";
+    cin>>n;
+    for(i=n;i>0;i=i/10)
+    {
+        r=i%10;
+        sum= (sum*10)+r;
+    }
+    cout<<sum;
+    return 0;
+}
