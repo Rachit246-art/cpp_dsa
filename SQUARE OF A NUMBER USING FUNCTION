@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int square(int a){
+    int  result =a*a;
+    return result;
+}
+
+int main() {
+  int ans=  square(5);
+    cout << "Try programiz.pro"<<ans<<endl;
+    
+
+    return 0;
+}
+
